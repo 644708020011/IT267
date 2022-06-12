@@ -1,6 +1,3 @@
 #test python
-from ctypes.wintypes import WORD
-
-
-print("HELLO WORD")
+print("HELLO")
 print("SAY YAAA")
