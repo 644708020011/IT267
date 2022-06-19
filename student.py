@@ -1,6 +1,6 @@
 class Student: #ชื่อ class อักษรขึ้นต้นเป็นตัวใหญ๋
 
-    def __init__(self,id:str,name:str,major:str):
+    def __init__(self,id:str,name:str,major="IT") -> None:
         self.id = id
         self.name = name
         self.major = major
@@ -17,3 +17,5 @@ if __name__=="__main__":
     John = Student("112","John","MKT")    
     John.printdisplay_detail() #ใส่()ทุกครั้งหลังเรียกใช้
 
+    Dang = Student("113","Dang",)
+    Dang.printdisplay_detail()
