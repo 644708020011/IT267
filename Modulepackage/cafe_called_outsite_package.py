@@ -1,6 +1,6 @@
 #วิธีที่ 1
-from cafe_module import Drinks
-from cafe_module import Desserts
+from cafe.cafe_module import Drinks
+from cafe.cafe_module import Desserts
 
 desserts = Desserts()
 print(desserts.show_desserts() )
