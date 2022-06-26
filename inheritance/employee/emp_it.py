@@ -1,4 +1,3 @@
-from cmath import exp
 from employee import  Employee
 
 class EmpIT(Employee):
@@ -11,7 +10,7 @@ class EmpIT(Employee):
     def add_Skill(self,skill:str):
         self.skill = skill
 
-    def add_experience(self):
+    def add_experience(self,exp:str):
         self.experience = exp
 
     def emp_detail(self):
