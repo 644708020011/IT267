@@ -1,6 +1,3 @@
-from this import d
-
-
 class Desserts:
     def __init__(self) -> None:
         self.desserts = ['ข้าวเหนียวมะม่วง','ข้าวเหนียวทุเรียน','ไอศกรีม']
