@@ -24,11 +24,11 @@ class Country(Geographic,Temperture):
         #แสดงขนาดพื้นที่
         print(f'Area : {self.area}')
         print(f'Population : {self.population} Million')
-        print(f'Density : {self.getpopulation_density}')
+        print(f'Density : {self.getpopulation_density()}')
 
         #timezone , cilmate , temperture , weather
-        print(f'Timezone: {self.gettimezone}')
-        print(f'cilmate{self.getcilmate}')
+        print(f'Timezone: {self.gettimezone()}')
+        print(f'cilmate{self.getcilmate()}')
         print(f'Temperture(C): {self.celsius}')
         print(f'Temperture(F): {self.getfahrenheit()}')
         print(f'Weather:{self.getweather()}')
