@@ -41,6 +41,6 @@ if __name__ == '__main__':
     m1 = Documenttary()
     m1._add_movie('My Octopus Teacher',2020,'Ducomentary')
     m1.add_channel('NetFlix')
-    m1._Movie__getmovie_detail() #จะไม่มีข้อมูลของ channel (overriding method)
+    #m1._Movie__getmovie_detail() #จะไม่มีข้อมูลของ channel (overriding method)
     #m1._Movie__getmovie_detail()
     m1.print_detail()
