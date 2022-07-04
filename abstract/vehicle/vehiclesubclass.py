@@ -97,6 +97,7 @@ class Motocycle(Vehicle):
         self.__model = value
 
     def show_detail(self):
+        
         super().show_detail()
         print('=== Motocycle Detail ====')
         print(f'{self.barnd} with speed {self.speed} km/hr')

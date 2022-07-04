@@ -1,4 +1,3 @@
-from lib2to3.pgen2.token import RPAR
 from geographic import Geographic
 from temperture import Temperture
 
