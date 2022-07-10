@@ -6,6 +6,6 @@ class Donkey:
     def sound(self):
         print (f'Donkey make eeyore sound')
 
-    def show_info(self):
+    def show_infodonkey(self):
         print (f'Age: {self.age}')
         print (f'Weight: {self.weight}')

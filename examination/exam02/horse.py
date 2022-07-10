@@ -12,7 +12,7 @@ class Horse:
     def show_name(self):
         print (f'Name: {self.name}')
 
-    def Show_info(self):
+    def show_infohorse(self):
         print (f'Name:{self.name}')
         print (f'Color:{self.color}')
         print (f'Max Height" {self.max}')
